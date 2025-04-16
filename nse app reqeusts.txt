@@ -1,0 +1,40 @@
+
+GET https://www.nseindia.com/ HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Connection: keep-alive
+Host: www.nseindia.com
+Accept-Language: en-US,en;q=0.5
+DNT: 1
+Sec-GPC: 1
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+
+
+
+
+GET https://www.nseindia.com/api/historical/cm/equity?symbol=HDFCBANK&series=%5B%22EQ%22%5D&from=01-01-2018&to=10-02-2018 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Connection: keep-alive
+Host: www.nseindia.com
+Accept-Language: en-US,en;q=0.5
+DNT: 1
+Sec-GPC: 1
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+Cookie: AKA_A2=A; _abck=77EAC55DB7FA6F5D6493D6FC2D6DEE58~-1~YAAQX/7UFxvlpRWWAQAATeKGOA32SlBPiewZ2FA3t+pTGFjRhfWDR7o+fwS2LkqIXGdn2wk8DF5PQKoq82t3q585YQtifG/nJLAAwy7ZS5WRsy2tisrlL/+zoKJ+V+TOfuAHjs1wvq/vMKmEtQvqQEeDJdGY6ocxugg7lh5Etbzcou5mXs4xaA6oikwIqB+W0C1/2lPaa9iHVg2vQYm9HYkZKHKAHM31DKKmlutyizZULDNvHW1PeLQssrGUx4D+SC16VtvwwOnoD4CRm9MrhfkD4sumsDhim4mpUV7fSTe6nMiCvip1oq/FFYWVgRAOQC8Pg50yu5io8+6ffVFM3cFIoUDE3tUkp+yT2yayEhn/aARLtY2ElyoZFu4dcfb5RCxL2pZA76mspVsGKaNMl+2POnrja70Jktj30v3jpWLuCQJiSijGNm975g==~-1~-1~-1; ak_bmsc=574DFB97F2ADA8FDFAAC19BF4AA5C812~000000000000000000000000000000~YAAQX/7UFxzlpRWWAQAATeKGOBtOyomOwhzyfEK38SqbCGp1vP4VeRBnGsiHS9OUPNxhUztxd1+bNMQgefQUGFUfr0dO7s+0kjklnmXxhcjQUHMc8tHF4K35nQZOuas/HUHEygUzHxUchAbO/KzUhgYJxKq5HLUvDaBtQY1+o/cVfLO1JGScAmNIf1CWYoi84bKv+pq+f/l2rE5nJdj6j6iWu6sND3/FyHARo4AXTayCl3YD0DegNu7R0pY/BvnZ/mzuOjoV2dDVJP1m9NH1Xmp8ZuHlYIAgoRkZR20H1CH9Q7LgHBNPjtSVrfAayMCOuCxbkct6E4Ga+WSMgLuBA2XUS4w1/rYvtTL03gMB; bm_sz=F9C22946B2ACA5A3501DD7D068D1A90F~YAAQX/7UFx7lpRWWAQAATeKGOBuayL4igybm3ngbusIqAOf/eN3PIRtvs0/peUsSwrrYE6nnlo17JKbppJemZ17l/pvTNfLYoVRsGGXjftrsOCYKd9sqEDcvYio+HjS7Q1Nj6IyMhpwvShYFzoJReJYmBgcZ4CUUu3EjLzx8tfXG0h/dxSMaR0adCmBm1ebz2eYdrz/XwfofPRlCj6FuZkhu8zphhiLbm5Dvh4NbMyzWHVGTbGc7vIZBy69TjrHb4j6UTMcYb9V+/QNsZZHxiQXNO8OLaX2cCUJr1PQzBRqs+8jbaqkMIqq7v5ktOISpPjXearA638+Px66kTxScvFqdxSM0JAwuK79cevIqfFUgmrNzOArkbA0RmmX3BlonJtImge97~4338231~3556402
+
+

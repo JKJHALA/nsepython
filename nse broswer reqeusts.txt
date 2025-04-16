@@ -1,0 +1,90 @@
+not working browser
+
+GET https://www.nseindia.com/api/historical/cm/equity?symbol=HDFCBANK&series=[%22EQ%22]&from=01-01-2018&to=10-03-2018 HTTP/1.1
+Host: www.nseindia.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Cookie: AKA_A2=A; _abck=51E201594AD2A883C827799B0059162C~-1~YAAQvFI2FxslEAuWAQAAO1xRMw02maEz07vKcWMRRpPWEbzs/I9apA4HLDapDve/PrlNscqnCADQypJZFrWeVswyaxjPE3QEaJH9DE9yvKu4qgjsHlOZ4Jc3xUj9nKat8Yij7TVO8PBv5ZtMxa5+V+H2Xj05TKh5aXX/FxnimwclTwbo5hrk9E6dOKxVTcukosQf5yXEfSqHWaCfG43AXQVuJrX6sfA02Y1XXKM4F+GMuLk5WD5C11R3+YrCV2TZKd2QzPdE9sGPQG23SVqCMm2sTL8AyyH5n1fHw7aKWkZQv6izBpyPziv7pNA/yuwFrcYGVAuphwfyJHHf0zger3ZHw9J1W4k5iwnegAw3RYsivWpu/b3bqJhPUxkCKNqRidEBzL0EGmeDYtB6Kw87P+KmYUAyWQM7kA5l7X3x69xR7ro1IBNrraJYAz3ezfvJ8AaohJlC3Un6OMWUtvfq3vbloT3zIRMk0Ex0tL+XSUwr/jZ4WFebBkgfb5tMoU5zKa+BHN1kltShbSBcjs7huuFfbNizO2tkLNqAOA==~-1~||0||~-1; ak_bmsc=BE5CF8762DE29E94235B0710D981DF16~000000000000000000000000000000~YAAQxFI2F57sojCWAQAAXVRRMxsFEwDdwpwVDhI6DdyWQpIDnLA4lgk0Pfl1ofes4094oHrmpjwWvW30uZ6JINq9eHvSZSPjd1pxyCi3KI6r7N3gImvAcHmuaB3ZHYkAvSpJsLOnFX8de0T7i2udF4RMlQmwS1mUWFF/16Yp3sDLtlRzSVkKo2BK7cMChWxHz5oex//EsBYw/8y56hASvYp86jTrEnG5hvjFXNgS5fhlRUJ1PpRVErj/4b3tIZSkCge09PmZnN5G1OFgHrL6co1NuMyZtQUkXDioQEO1OmiBtKu4wVxkIB0Hej7DOG1DJwiKPAyAiVDa0xmx1lqqWCz4fK5b56XwE9kyBmGGPH4HE9516NhcWYFsONdqW7jdht3W+POgMVX5whuKXXukQn4S8VpvD1EJ4bU6/jmdAv36Fi/XeTSrAHmT4EM7szkh4XOvwaEjIuB8; bm_sz=ADFF81E9BF0100C47303428C63ED8DA1~YAAQvFI2F44qEAuWAQAAVBNSMxsdb7T4pYgY6fIM5bzTytdn4bh+uCBhDu1k5eDkRapcwiTpip2LHoq6hChtBErdin3F67QdWnrNfUFyYc4B7cKkZn+5eNWrE61tNtT81MXxvv8DUQzeJUG0AZH//Myxzx76cQNGuBqdDC8mdu4Qu4YqQb2mqJwXlWOLpdxZ2YCTR/Ai5V8G8GbqcBHLkjPbyJ6xsdgzhnp+eCFzh4bUMW/1oOZKCRRkFlf2RtXaPIE8/NkEVqbjl2aAj8KX/DXl1E4l9i/NFqPmgfQvmq1cwDHiW6VhQYaz7bqkVtFJMWNn9D5Pz+kauQNRWtADnHbyQ2V3M21OOmqLTlzKVg46o2M6AikpGXLAorzZuM+kv6wWI3aYI1gFuU+mVzeBaXC177NpkkZ81MfbvSQCqg==~3356468~3683889; bm_mi=00FCA023DD1FD8649D3A1C87732D0AAC~YAAQxFI2F9XrojCWAQAAF01RMxvLxPj4Qt5e+oqV5tJA6/HmwgjgmOKJwcsySqordtgHdCLDo97htUL+JUFgDy5yO1JtiDKLcEXpdesPhlsKNXcW7JsWMXRJYT/IvhlprnkNHyB+c5lHHapVMxW2hJvb8MzIjTP71fC3LTtJrJZCP3vP3pCC8q/KRwtySTNGKV7RX/GEg13a9pDfV/UXVR1g72Fv0vNUe66tZfojGvdWlPm/2LdzaaanznJ9C/dWxFlrmpWm3Z/srLiPYN46D7eSVDfTC0JbUXNK+DM5akGV7uhGGZqIZTwDXic7LRTD~1; bm_sv=3C8F0E80800A44D3E9C2538993B45C5D~YAAQvFI2F40qEAuWAQAAVBNSMxt3o04dcMj+wTzG0scfa/8C8BZ0taBOaPboyj34VGZ3DW06zaqN0EhEFGl4TQVgnmN/GP00flJvqxN7+1KfnawO9DKVojjXHoLEPSaCq22brqbiQ57dYDA57r3Y1Yj8C0muCRFdUbLXJfq9TA7wHfM/4gnEk8LvX7EXlwCtMZZAqUPIbKRhLc5YEtTLTykWJwp9ohscKCaMhmtbFmRqVi74Dqydd/6uFOR1/VUfrqU9~1; nsit=IctBynLoxkbPWw26c6PAWJfN; nseappid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcGkubnNlIiwiYXVkIjoiYXBpLm5zZSIsImlhdCI6MTc0NDYxNzY5MCwiZXhwIjoxNzQ0NjI0ODkwfQ.8IGh446QEe-aK383wYLT1zbNYDcyV8kAqt29dct8nqg; _ga_87M7PJ3R97=GS1.1.1744617691.1.0.1744617691.60.0.0; _ga=GA1.1.144079574.1744617692
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+
+broser warm up
+
+GET https://www.nseindia.com/ HTTP/1.1
+Host: www.nseindia.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Cookie: AKA_A2=A; _abck=2CA143B27E13F814FB68BF4F5D5F794B~-1~YAAQVqXBF68/XiWWAQAAzsZUMw0mxYMl32PPZDF1X6BxaiH2L+d2UMzj31TqJ3X/1fhVtYX+CXGducEYUK8Kfr8AMJ4fOoPC6sVmzg1difqweGw+HhOQBuj/rPVCVLqx9nEO6nAX16IsPtIk/oZi59JXAtHpJK+zZQPkBMosNBRv7rz8Yl2wZCzw6fxoDBlxJdQU4OmoqRt57x1v8pb0cbow98BQWXpzcrT++IWUQ342PKuqrDluLQRsUafad93+V7IVIh2mpfdtWgA0UKWBJgRAMv5xVp8oG0k5YE8Qz8NC/1j3cwweTT09RqIEHa0h0MIfUdjn51jDyJ5KmoaKuaaLrOKexJ4tzIRXzn8BwT1C2KfL2CMwCoN+I+sKfJEyFw2prQVjzDp8wfKlTeu37W+5rAykIPKWU7hZCk4E9SLQOabz4IX0+uaO5g==~-1~-1~-1; ak_bmsc=277DC931EDF06614F7EA5F2F770373B8~000000000000000000000000000000~YAAQVqXBF7A/XiWWAQAAzsZUMxvdrmzQQLT6nCgU+Q3lJI8bwdiDxBLnPWnOJDfdqJer4QbDWLm/xo+pU8Y/2/5bHXHyrgvpqmGnMmtk+WeYdTP828/mHAJjgMRAKNgy+t10hGc3FmcoGRS2s3q1oRztRK3y9UqEx09KR/Q4zUkhu3CpS8mfuwsX1bVR/405O4XksSeatF4SzlA4i97+7t6hamqcdi8Yl9UA/Rs8XriuM67bfjJt0nEDaXEJgC1i9vgzZo59U6eJjrNEjDDBlq9gfMWN6Zjj7Ndc0IBBT44oe7mivnqLTjGcggqwmI3Xzq8PKcGicJAPYoiN26SYAPTk9B8YexZpMVlRBQK/NebP/lkgw0sxvzORsqtHUJcfe6ES0C1T2Z816k8sWw==; bm_sz=CB8A161F09CF58A7EB5439D967E73C19~YAAQVqXBF+FJXiWWAQAAIapVMxuQBF3TfAl0pvYiqxcG9RNrrAOZnwZjH0GfhlNLlm9phYJcAmn42Fw6jvjkcX5Dq4QU/dbL3I4F+EKPMtUBygUfxEjG+EpNO5qocHkcEmHWoZKxnGPY921EjM09WGv6XtTVsFUBHrYQ2j/usZyVIOJvXAA2ALyVkiHinn0BZTDByB75Kb/1arYOEqDFlgZHPZ/FULyirvJ+sv8ozT0IHuxxS9dZeQW7/il3a8FlBmd0diYluNTZub5oNfQxokeEV28F69paTmZrb74EPa6xIbQsN6O2Ipwwka2IpqBet7a31f/9dTmdqGJzK9zWhqjEm4BFg/0a3yHkefKB+rexGGBHiaQwYsvMlhwut8lVccRyorREtPDw3vS4YJUc7R4nyRyV6+/8ITTZ~4338737~3424818; bm_sv=1AF67B5D7CA9DB642FAED1FCF42B1818~YAAQVqXBFx5BXiWWAQAAQ+BUMxs+o8KlFTe+/F3ifbIH0qMSK9k0S+9b+rHB/F/lLjzIg18n/7NF+GkFxlOYmJD6JvnDyiKgYS0lG4Axfe107QK6zYPnnH8/aBWK8wZb6CDTzzAwhQYqMQ8qAjD7xiOh7j5UBfzz1AhVqkjebWEJET4bnIye/f6V2zhNJ1S8CSfMZYrX9dAv9N+WMlVV35hg+5YxFmRYsNn+gyQDtzgrSOtWs4Me1BMfGYHSEgsOjsA=~1
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, I
+
+
+
+warm up response
+
+HTTP/1.1 200 OK
+Server: Apache
+Content-Security-Policy: frame-ancestors self
+Content-Security-Policy: default-src 'self'; script-src 'self' https://*.googletagmanager.com 'nonce-MC4zNjc2NjkxMzM0'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://analytics.google.com https://*.youtube.com https://*.nse.co.in https://*.nseindia.com https://www.google.co.in https://www.googletagmanager.com; font-src 'self'; base-uri 'self'; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://*.highcharts.com https://www.google.com/ https://*.nseindia.com wss://*.nseindia.com https://c.go-mpulse.net https://stats.g.doubleclick.net https://*.akstat.io/ https://*.akamaihd.net
+X-Powered-By: Next.js
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Content-Type: text/html; charset=utf-8
+X-FRAME-OPTIONS: SAMEORIGIN
+X-Akamai-Transformed: 9 - 0 pmb=mTOE,3mRUM,2
+Vary: Accept-Encoding
+Date: Mon, 14 Apr 2025 08:06:14 GMT
+Connection: keep-alive
+Connection: Transfer-Encoding
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=42
+Server-Timing: origin; dur=155
+Link: <https://www.nseindia.com/assets/webfonts/poppins/Poppins-Italic.woff2>;rel="preload";as="font";type="font/woff2";crossorigin,<https://www.nseindia.com/assets/webfonts/poppins/Poppins-Light.woff2>;rel="preload";as="font";type="font/woff2";crossorigin,<https://www.nseindia.com/assets/webfonts/poppins/Poppins-SemiBold.woff2>;rel="preload";as="font";type="font/woff2";crossorigin,<https://www.nseindia.com/assets/webfonts/poppins/Poppins-Regular.woff2>;rel="preload";as="font";type="font/woff2";crossorigin,<https://www.nseindia.com/assets/webfonts/poppins/Poppins-Medium.woff2>;rel="preload";as="font";type="font/woff2";crossorigin,<https://www.nseindia.com/assets/webfonts/fa-brands-400.woff2>;rel="preload";as="font";type="font/woff2";crossorigin,<https://www.nseindia.com/assets/webfonts/fa-solid-900.woff2>;rel="preload";as="font";type="font/woff2";crossorigin
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Set-Cookie: bm_mi=AD3D6F5F7EF65517E4241F65189A1731~YAAQVqXBF/pJXiWWAQAARKtVMxula3XGM3k5uJ5kG4yRIJLlVWCrstObdnJON7qG20z/mKYIMpo4nq3ZZ04J0zN+RmwkUnbz1b+Z9KZiwlM1NiHYTV/qIhgkW65DrS+5zQLm0gK8wun/aHm5cAZo/BYZqqa58EuXYmxS2JjtFCTJ+ddfIvlHzdB7OzgAGAG2CpE0dDkBXeIh27W7Yt/9L5eK5j0JliKkU29ZWI+c/ogreSq0RlIOzj83orAlZ6WTz/Z3LX+oY6IWveOrI4gcqvmjN4gNyXL86mkuSkOj3tqZe5Gmrz0RklMHwZWW1y7K~1; Domain=.nseindia.com; Path=/; Expires=Mon, 14 Apr 2025 10:05:16 GMT; Max-Age=7142; Secure
+Set-Cookie: bm_sv=1AF67B5D7CA9DB642FAED1FCF42B1818~YAAQVqXBF/tJXiWWAQAARKtVMxsEcjO7RA1Z4OVm3jz+Y/Xv8NuYNrIUKr4Tb608OVXw6tSqcy6CvNBQROVFP4vil5wMVKu1PNP2qjgi9t7RIdEcidTfOt9YudustVEXYdi1B/2yQAb8NxtmfrLfHJoegUTD9f4Vdy8XbSxWNBtmMPU4OSFEOHBt5YbQmZfNrmMoKa30d3IxmGZ5it4CjUgXFU/mZR3gErCi49Sx67ax2Kgw0KDDJNWZJArAT07MaAA=~1; Domain=.nseindia.com; Path=/; Expires=Mon, 14 Apr 2025 10:05:22 GMT; Max-Age=7148; Secure
+Set-Cookie: bm_sz=CB8A161F09CF58A7EB5439D967E73C19~YAAQVqXBF/xJXiWWAQAARKtVMxt2XIW8+z+a5VBaO9ioCvIBYpwk+ilfkmpXC/3Dv2ON+NemYY9SZuVe/w6yF75txnCtxfBOPznR2pdj2qmi9QJutTAbSkkeqokr4VhqaE7dFvsGpPQ2MiG1S0afIXnkBwJATibHLsKVApaQwNSt3DomLMpb9chnS/aIVTSRWKZPnE6liZjXe1WwNunh4xNJ0ClDMC9gl8B3jSQGkS3PVsJ5wiv4ZYNN9ZTrU3zzfLD+sdL6Kb7nMKsWgcxAUpTVcS2Ik4bREKTvnP2FY8nES2JAJJK7MXZqiF7kVVR5xpcw0KrvZjPng7hunkiDDOI6IPBYXk9a3OZgvIxsDSmamz9hS+tElwyueHbVlr349/RUn8GrnpIuYSLeCxZC2OZ3NvpzjtP3fYgGvvjQMXI=~4338737~3424818; Domain=.nseindia.com; Path=/; Expires=Mon, 14 Apr 2025 12:05:16 GMT; Max-Age=14342
+Server-Timing: ak_p; desc="1744617974342_398566742_300027091_19715_9336_16_23_-";dur=1
+Content-Length: 361013
+
+working reqeust
+
+GET https://www.nseindia.com/api/historical/cm/equity?symbol=HDFCBANK&series=[%22EQ%22]&from=01-01-2018&to=11-03-2018 HTTP/1.1
+Host: www.nseindia.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Cookie: AKA_A2=A; _abck=2CA143B27E13F814FB68BF4F5D5F794B~-1~YAAQT6XBF4XcdyWWAQAAYLhVMw1O8t0CDDhKD2fxX3+CXxhxNIb5+Q6aO3yYIUvgDVzhEkl8Dn21e+Yp0DaVyOOOCDAnTplXojlp1bCIKNDdmLoyrugtQUbIflk+ni/lOQtmxjMJFwSOQDI0vV08afCPwcYOOvcl96+QjqKlN5KRunQmlPTJiAdnErQuvKHtvdyCnxxwnOFsoWcApHOYjIl+xyg9CSe9/+TKgrUkqNkUUtSGoxyfLR5L9XyzzSbAZeKn5YbNqF809yxoIwLm67AUmU6XvOdlVrPj+UoePtDcBTGp0Zd+OY0ihQLRDqBYBzvRpaJGZfgs+Rm6VcMkSjcrMqNH9BKWuH4CflQi4nNHF6Y23K7CeQfxVVbLtMZahXgcFS5AGsqde1exO+NUXVQen883fcgSENhK6wZoKrQwhq2ntHP88eLMpfRqAvbIf43Qz3R4Gm7P2gG2OFeoFy/l8BQwn33uCU4ZmKOmYW6B2xgap4CkBgqW3dPPmkl8w8ForCIpmFiVLfwQOxs4HyhK4QGdlgFwU/gcvQ==~-1~||0||~-1; ak_bmsc=0A6A4A065BD99866D56E7B5676458C49~000000000000000000000000000000~YAAQVqXBF+FZXiWWAQAAqJ5WMxuz5s+yx6swME3HIcWa2kdkT12rHvgYGMNdfQZ9lp3Q2L510tMTvznDWRC4JxCeI+DUp3lBw7n5ajmfwuvTc3zxPNghrW3lOy5Zra1QfNYEfaKBgrDx7CBuvdw3uhMrCeVIhSRVXKCl1Oxpa2HHOZg9fWN+7HHP9Io3V8w5TRbYgWbApb0hbOLUF8fmGK5mrcmzl3bq5toVEXcorf/Y5GsGqZzamOm1Rs1tL17Dwdr+qyGpc7+HK6Zu0lxrrMxsvezwa04NTd0lMacFTLaWTDNtoz95YLT8QUDPuGLXh8FgXaMUswpdL3Md2HfgFjgxEgNnOjie0zhFg4v+fHtfBnssmbZKeGh4WVYJP6quwWOcWrerRlTsvL109vHr5wsnAWrULPqWMMedwvQVrlT4WdtieXF0fR0NGzYZQDeYuWcFDQ66wDGeU0j/3jOiFZIPMzVQ3xYZ1uX9SW0xmY8v35Ew+WJkwFner+j7oadYmcHHLXwB+aIGQ1f4MVUIySd36E0KwN2OcuGBLjz+fFxHSLp+iJz2+ape+p47KpZ+Kn5PwzYes6uAfw==; bm_sz=CB8A161F09CF58A7EB5439D967E73C19~YAAQVqXBF0N4XiWWAQAA3xBZMxv7RBW3bi6KTxPfw8ZlrC7XPitfq/DqnZPLUm9PoSIeTWgvfXoUL+pbgtQDUkH2+nBTcdQRHoUmMTGOd/24H9414TxXE0ip/3mlhqev/cj/rSMAOfKHbNOg+VrrFvTGIOnUVH8NhawImb1HkiL7/OzCLLrDy9XD8H5PHTOuNX8f8mM/PJ0s4zzHCn+icJqV3+R39orpbLUkZlg0V1O6uPOQxDonmI3bQxmmEUYQLWzPrdYpa4Ghq4nz/36HVPxRr1RewVdngMAKar8TpNHydOUva3KHFuQ4tfn6SVii4KouRoskqQdkPjTsO+0+lQY+eShuRbONqOT3vRVVOM4dmoOQX1YFtgaxRiiYqMnam8BbaH5ggHKlf9ja1ZNcp0kzikdAP6I56GDdpN/+RqtQxgbwqqQUUltpvsXifKihck1F~4338737~3424818; bm_sv=1AF67B5D7CA9DB642FAED1FCF42B1818~YAAQVqXBF/BOXiWWAQAAYylWMxszOoPv2sG/PwJ5jrs2puSuNe7HAIL5hyWuvnDQffj5KEvIOBjGttU9j3GiWpz+r0lrNG61a2/+A7/QIBQFN/NZzOY/48igqqnLkC19jG4ZeqEkpVtbOGoqjOdY/KzNL7zW3v/1Nx6tm8Qn4x/SSi+E0/pEj1wNv7ZYOIQK/abCtFxQYM6Mzij4CcfvEcbYaqy03dsNzy+67IicDkTts6x5IcZwOWxfLInwAvygqqoy~1; bm_mi=AD3D6F5F7EF65517E4241F65189A1731~YAAQVqXBF5VOXiWWAQAAFSJWMxuxVi/0nz0vSZVM/LFLN8PZJVJO0no6BJYe4Dkdhx+2hvWEPHGbdLtbHYSlzrdjafhLbDqdmbwjd4vOdQPTkzmP/q9dWd69Xj98r6SCdrV6yE2hcK9dodiWjl6/o0EWbx4BgyBgqPRWOMsQqj/ht3g14fCecJI8aWROnEgbBINFizR+4R5MicSpem57a6BsF6aohOZwdtR1/UtOwa/6hHCj2F8EmbxvS177r98Dzx5R2iE5cT/6EhJd1E/1hd1c198C3VteTxgBp5VUaiHbo3AhUqdzz+rAR+xKivD7MHAbhKyS7gIVic/9xc+YDjfgLV4th6BMRWcZfevElnuqLMgKgYn66Nx2hPOMn/yNdSMsuFDwxFo5Oo6tFXwNkNN73haa~1; nsit=QIamLW-SyWRXJc_Wb3_Kvweq; _ga_87M7PJ3R97=GS1.1.1744617976.1.0.1744617976.60.0.0; _ga=GA1.1.1577020433.1744617976; nseappid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcGkubnNlIiwiYXVkIjoiYXBpLm5zZSIsImlhdCI6MTc0NDYxNzk3NywiZXhwIjoxNzQ0NjI1MTc3fQ.RTU5YVJ45NoxchptLeL9wPr8flv-3cU--XPlPfJ0DNs
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+
+

@@ -32,67 +32,6 @@ if(mode=='vpn'):
         return output
 if(mode=='local'):
     def nsefetch(payload):
-        session = requests.Session()
-
-        headers2 = {
-            "Host":"www.nseindia.com",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
-            "Accept-Encoding": "gzip, deflate", #"Accept-Encoding": "gzip, deflate, br, zstd",
-            "DNT": "1",
-            "Sec-GPC": "1",
-            "Connection": "keep-alive",
-            "Upgrade-Insecure-Requests": "1",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "none",
-            "Sec-Fetch-User": "?1",
-            "Priority": "u=0, i"
-
-        }
-        try:
-            # Warm-up call to set cookies (if not done already)
-            # Warm-up by hitting homepage (to get cookies)
-            session = requests.Session()
-            session.headers.update(headers2)
-            response = session.get("https://www.nseindia.com", headers=headers2, timeout=10,verify=False)
-            if response.status_code != 200:
-                print("⚠️ NSE warm-up failed. Status:", response.status_code)
-            else:
-                print("✅ NSE warm-up successful. Cookies set.")
-
-            response2 = session.get("https://www.nseindia.com/companies-listing/corporate-filings-application?_rsc=1wtp7", headers=headers2, timeout=10, verify=False)
-            if response.status_code != 200:
-                print("⚠️ NSE warm-up2 failed. Status:", response.status_code)
-            else:
-                print("✅ NSE warm-up2 successful. Cookies set.")
-
-            #time.sleep(0.8)  # short pause to mimic browser
-        except Exception as e:
-            print("🔥 Warm-up exception:", e)
-
-        try:
-            verify = False
-            session.headers.update(headers2)
-
-            #save_reqeust_to_file(session,payload)
-            response = session.get(payload,  timeout=10,verify=False)
-            if response.status_code != 200:
-                print(f"⚠️ NSE fetch failed. Status: {response.status_code}")
-                print(response.text[:300])
-                return None
-
-            return response.json()
-        except Exception as e:
-            print("❌ Exception during fetch:", e)
-            return None
-
-
-
-
-    '''
-    def nsefetch(payload):
         try:
             output = requests.get(payload,headers=headers).json()
             #print(output)
@@ -101,7 +40,7 @@ if(mode=='local'):
             output = s.get("http://nseindia.com",headers=headers)
             output = s.get(payload,headers=headers).json()
         return output
-    '''
+
 
 # headers = {
 #     'Connection': 'keep-alive',
@@ -1013,35 +952,3 @@ def security_wise_archive(from_date, to_date, symbol, series="ALL"):
     url = f"{base_url}?from={from_date}&to={to_date}&symbol={symbol.upper()}&dataType=priceVolumeDeliverable&series={series.upper()}"
     payload = nsefetch(url)
     return pd.DataFrame(payload['data'])
-
-def save_reqeust_to_file(current_session,payload):
-    req = requests.Request(
-        method='GET',
-        url= payload,
-        )
-
-    prepared = current_session.prepare_request(req)
-
-    # 4. Construct raw HTTP request text
-    raw_request = f"{prepared.method} {prepared.url} HTTP/1.1\n"
-    raw_request += f"Host: {prepared.url.split('/')[2]}\n"
-
-    # Include headers
-    for k, v in prepared.headers.items():
-        raw_request += f"{k}: {v}\n"
-
-    # Separate headers from body
-    raw_request += "\n"
-
-    # Include body if present
-    if prepared.body:
-        if isinstance(prepared.body, bytes):
-            raw_request += prepared.body.decode()
-        else:
-            raw_request += str(prepared.body)
-
-    # 5. Write to a text file
-    with open("raw_request.txt", "w", encoding="utf-8") as f:
-        f.write(raw_request)
-
-    print("Request exported to raw_request.txt")
